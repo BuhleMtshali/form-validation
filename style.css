@@ -31,7 +31,7 @@ h1 {
   margin-bottom: 20px;
 }
 .blue-bg {
-  background-color: #180e6cdc;
+  background-color: #5d55a3;
   width: 100%;
   padding: 3px;
   border-radius: 8px;
@@ -47,7 +47,6 @@ form {
   background-color: white;
   padding: 25px;
   border-radius: 8px;
-  max-width: 100%;
 }
 form input[type="text"],
 form input[type="email"],
@@ -60,7 +59,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"] {
-  background-color: hsl(154, 59%, 51%);
+  background-color: #37cd89;
   color: white;
   border: none;
   cursor: pointer;
