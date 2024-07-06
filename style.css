@@ -19,29 +19,35 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 20px;
-  height: 100vh;
 }
 h1 {
   color: white;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 .text {
   color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 .blue-bg {
   background-color: #180e6cdc;
   width: 100%;
   padding: 3px;
   border-radius: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 .bold {
   margin: 0;
   color: white;
+  font-weight: 700;
 }
 form {
   background-color: white;
-  padding: 20px;
+  padding: 25px;
   border-radius: 8px;
+  max-width: 100%;
 }
 form input[type="text"],
 form input[type="email"],
@@ -59,4 +65,26 @@ form input[type="submit"] {
   border: none;
   cursor: pointer;
   font-weight: 600;
+}
+.light {
+  color: hsl(246, 25%, 77%);
+  font-weight: 500;
+}
+::placeholder {
+  color: black;
+  font-weight: 700;
+}
+.text {
+  color: hsl(246, 25%, 77%);
+}
+.bottom-text {
+  color: hsl(246, 25%, 77%);
+}
+.red-text {
+  color: hsl(0, 100%, 74%);
+  cursor: pointer;
+  font-weight: 700;
+}
+.red-text:hover {
+  color: hsl(249, 10%, 26%);
 }
